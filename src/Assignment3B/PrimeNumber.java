@@ -8,15 +8,12 @@ public class PrimeNumber {
 		
 		System.out.println("Prime numbers from 1 to 100: \n");
 		for(i = 2; i <= 100; i++)
-		{ //System.out.println("i is: " + i);
+		{ 
 			for(j = 1; j <=i; j++ )
 			{
-				 //System.out.println("j is: " + j);
 				if(i%j == 0)
 				{
-					//System.out.println("i%j " + i%j);
 					count++;
-					//System.out.println(count);
 				}
 			}
 			if(count == 2)
